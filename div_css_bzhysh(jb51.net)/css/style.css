@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/* 公共属性 */
+*{margin:0;padding:0;list-style:none;}
+body{background:#fff;font:normal 12px/22px "Microsoft Yahei";}
+img{border:0;}
+a{text-decoration:none;color:#333;}
+a:hover{color:#1974A1;}
+.clearfix:after,.clearfix:before{display:table;line-height:0;content:""}
+.clearfix:after{clear:both}
+
+/* 主要样式 */
+.container{width:1180px;margin-right:auto;margin-left:auto;*zoom:1}
+.process{padding:80px 0;text-align:center;}
+.process h3{font-size:30px;line-height:52px;color:#23292E;font-weight:400;}
+.process p{line-height:26px;font-size:14px;color:#999;}
+.process .flowline{margin-top:50px;margin-left:40px;*zoom:1}
+.process .flowline li{float:left;margin-left:110px;text-align:center;list-style:none}
+.process .flowline li .icon-block{position:relative;display:inline-block;width:72px;height:72px;-webkit-border-radius:72px;-moz-border-radius:72px;border-radius:72px;background-color:#181820;line-height:0;margin-top:0}
+.process .flowline li .icon-block img{width:32px;height:32px;background:url(../images/icon.png) 0 0 no-repeat;background-size:192px 64px;margin:20px 20px 0 20px}
+.process .flowline li .icon-block:before{content:''}
+.process .flowline li .icon-block span{margin:0}
+.process .flowline li span{display:inline-block;margin-top:20px;font-size:18px;line-height:36px;color:#333}
+.process .flowline li.process-0{margin-left:20px}
+.process .flowline li.process-1{margin-left:50px}
+.process .flowline li.process-4{margin-left:112px}
+.process .flowline li.process-5{margin-left:115px}
+.process .flowline li.process-5 .flow-line{display:none}
+.process .flowline .flow-line{position:absolute;top:36px;left:92px;width:77px;border-bottom:1px dotted #979797}.
