@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,29 @@
   <link rel="stylesheet" href="./../assets/css/all.min.css">
   <link rel="stylesheet" href="./css/style.css">
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.min.js'></script>
-  
+
 </head>
+
 <body>
-  <div class="alert show">
+  <button>Show Alert</button>
+  <div class="alert hide">
     <span class="fas fa-exclamation-circle"></span>
     <span class="msg">Warning: This is a waring alert</span>
-  <div class="close-btn">
-    <span class="fas fa-times">
+    <div class="close-btn">
+      <span class="fas fa-times">
+      </span>
+    </div>
 
-    </span>
-  </div>
-  
-  <script>
-
-  </script>
+    <script>
+      $('button').click(function () {
+        $('.alert').removeClass("hide");
+        $('.alert').addClass("show");
+      });
+      $('.close-btn').click(function () {
+        $('.alert').removeClass("show");
+        $('.alert').addClass("hide");
+      })
+    </script>
 </body>
+
 </html>
