@@ -25,6 +25,11 @@
       $('button').click(function () {
         $('.alert').removeClass("hide");
         $('.alert').addClass("show");
+        $('.alert').addClass("showAlert");
+        setTimeout(() => {
+          $('.alert').removeClass("show");
+        $('.alert').addClass("hide");
+        }, 3000);// 自动隐藏3s后
       });
       $('.close-btn').click(function () {
         $('.alert').removeClass("show");

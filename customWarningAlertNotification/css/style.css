@@ -35,9 +35,14 @@ button{
   border-radius: 4px;
   border-left: 8px solid #ffa502;
   overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
 }
 
-
+.alert.showAlert{
+  opacity: 1;
+  pointer-events: auto;
+}
 @keyframes show_slide {
   0% {
     transform: translateX(100%);
@@ -52,13 +57,32 @@ button{
   }
 
   100% {
+    transform: translateX(-10px);
+  }
+
+}
+@keyframes hide_slide {
+  0% {
+    transform: translateX(-10px);
+  }
+
+  40% {
+    transform: translateX(0%);
+  }
+
+  80% {
     transform: translateX(-10%);
+  }
+
+  100% {
+    transform: translateX(100%);
   }
 
 }
 
+
 .alert.hide {
-  display: none;
+  animation: hide_slide 1s ease forwards;
 }
 .alert.show {
   animation: show_slide 1s ease forwards;
