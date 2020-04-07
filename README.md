@@ -55,3 +55,12 @@
 
 ![1586175128111](./assets/img/1586175128111.png)
 
+
+
+# CSS Glowing Loading Page Animation Effects 
+
+[描述]: css text-shadow 
+
+[youtube]:https://www.youtube.com/watch?v=EkNfXFYPBR4&t=132s
+
+![1586255454203](./assets/img/1586255454203.png)
