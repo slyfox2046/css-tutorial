@@ -57,10 +57,21 @@
 
 
 
-# CSS Glowing Loading Page Animation Effects 
+## CSS Glowing Loading Page Animation Effects 
 
 [描述]: css text-shadow 
 
 [youtube]:https://www.youtube.com/watch?v=EkNfXFYPBR4&t=132s
 
 ![1586255454203](./assets/img/1586255454203.png)
+
+
+
+## Creative Page Scroll Progress Bar 
+
+[描述]: scroll样式 filter blur 等
+
+[youtube]:https://www.youtube.com/watch?v=qYFkQa0Bbq0
+
+![1586328375955](assets/img/1586328375955.png)
+
