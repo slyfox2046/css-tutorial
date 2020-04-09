@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: rgb(17,104,105);
+    }
+    .text-animation{
+      list-style: none;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform:translateX(-50%) translateY(-50%);
+    }
+    .text-animation li {
+      display: inline-block;
+      margin-right: 5px;
+      font-family: sans-serif;
+      font-weight: 300;
+      font-size: 5em;
+      color: #70e1e2;
+      opacity: 1;
+      transition: all 2.5s ease;
+    }
+
+    .text-animation li:last-child{
+      margin-right: 0;
+    }
+    .text-animation.hidden{
+      opacity: 1;
+    }
+
+    .text-animation.hidden li:nth-child(1){
+      transform: translateX(-200px) translateY(-200px);
+    }
+    .text-animation.hidden li:nth-child(2){
+      transform: translateX(20px) translateY(100px);
+    }
+    .text-animation.hidden li:nth-child(3){
+      transform: translateX(-150px) translateY(-80px);
+    }
+    .text-animation.hidden li:nth-child(4){
+      transform: translateX(10px) translateY(-200px);
+    }
+    .text-animation.hidden li:nth-child(5){
+      transform: translateX(-300px) translateY(200px);
+    }
+    .text-animation.hidden li:nth-child(6){
+      transform: translateX(20px) translateY(-20px);
+    }
+    .text-animation.hidden li:nth-child(7){
+      transform: translateX(30px) translateY(200px);
+    }
+    .text-animation.hidden li:nth-child(8){
+      transform: translateX(-200px) translateY(-200px);
+    }
+    .text-animation.hidden li:nth-child(9){
+      transform: translateX(20px) translateY(200px);
+    }
+    .text-animation.hidden li:nth-child(10){
+      transform: translateX(-150px) translateY(-100px);
+    }
+    .text-animation.hidden li:nth-child(11){
+      transform: translateX(10px) translateY(-200px);
+    }
+    .text-animation.hidden li:nth-child(12){
+      transform: translateX(-300px) translateY(20px);
+    }
+  </style>
+</head>
+
+<body>
+  <ul class="text-animation hidden">
+    <li>A</li>
+    <li>G</li>
+    <li>H</li>
+    <li></li>
+    <li>M</li>
+    <li>U</li>
+    <li>R</li>
+    <li>T</li>
+    <li>A</li>
+    <li>Z</li>
+    <li>A</li>
+  </ul>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+  <script>
+    $(function(){
+      setTimeout(() => {
+       $('.text-animation').removeClass('hidden'); console.log("123")
+      },100);
+    })
+  </script>
+</body>
+
+</html>
