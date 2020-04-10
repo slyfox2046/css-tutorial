@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Side Navigation Bar</title>
+  <link rel="stylesheet" href="../assets/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="top_navbar">
+      <div class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      <div class="top_menu">
+        <div class="logo">
+          Coding Market
+        </div>
+        <ul>
+          <li><a href="#"><i class="fas fa-search"></i></a></li>
+          <li><a href="#"><i class="fas fa-bell"></i></a></li>
+          <li><a href="#"><i class="fas fa-user"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <ul>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fas fa-book"></i></span>
+            <span class="title">Books</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fas fa-file-video"></i></span>
+            <span class="title">Movies</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fas fa-volleyball-ball"></i></span>
+            <span class="title">Sports</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fas fa-blog"></i></span>
+            <span class="title">Blogs</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fas fa-leaf"></i></span>
+            <span class="title">Nature</span>
+          </a>
+        </li>
+
+
+      </ul>
+    </div>
+
+    <div class="main_container">
+      <div class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id magnam minima, modi vel quaerat voluptates nemo
+        sapiente necessitatibus, ea voluptate quia, sint iste quam amet perferendis mollitia nisi? Cupiditate, deleniti!
+      </div>
+      <div class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id magnam minima, modi vel quaerat voluptates nemo
+        sapiente necessitatibus, ea voluptate quia, sint iste quam amet perferendis mollitia nisi? Cupiditate, deleniti!
+      </div>
+      <div class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id magnam minima, modi vel quaerat voluptates nemo
+        sapiente necessitatibus, ea voluptate quia, sint iste quam amet perferendis mollitia nisi? Cupiditate, deleniti!
+      </div>
+      <div class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id magnam minima, modi vel quaerat voluptates nemo
+        sapiente necessitatibus, ea voluptate quia, sint iste quam amet perferendis mollitia nisi? Cupiditate, deleniti!
+      </div>
+      <div class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id magnam minima, modi vel quaerat voluptates nemo
+        sapiente necessitatibus, ea voluptate quia, sint iste quam amet perferendis mollitia nisi? Cupiditate, deleniti!
+      </div>
+      <div class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id magnam minima, modi vel quaerat voluptates nemo
+        sapiente necessitatibus, ea voluptate quia, sint iste quam amet perferendis mollitia nisi? Cupiditate, deleniti!
+      </div>
+    </div>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+  <script>
+    $(document).ready(function () {
+      console.log("1")
+      $(".hamburger").click(function () {
+        $('.wrapper').toggleClass("collapse")
+
+        
+      })
+    })
+  </script>
+</body>
+
+</html>
