@@ -108,3 +108,12 @@
 
 ![1586597332666](./assets/img/1586597332666.png)
 
+
+
+## CSS3 Cloud Banner Animation Effects | Pure CSS Animated Clouds
+
+[描述]：云飞翔效果，animate，translateY ，css calc
+
+[youtube]:https://www.youtube.com/watch?v=FWW38GuIo7M&t=18s
+
+![img](E:/md/img/cloudEffects-1586743000716.png)
