@@ -116,4 +116,27 @@
 
 [youtube]:https://www.youtube.com/watch?v=FWW38GuIo7M&t=18s
 
-![img](E:/md/img/cloudEffects-1586743000716.png)
+![img](./assets/img/cloudEffects.png)
+
+
+
+## Shape Outside Circle
+
+[描述]：文字环绕图片，shape-outside: circle();
+
+[youtube]: 
+
+![shape_outside_circle](./assets/img/shape_outside_circle.png)
+
+
+
+## Angled Div Shape
+
+[描述]：Div 梯形 ，box-sizing chrome不支持;
+
+[youtube]: https://www.youtube.com/watch?v=A11xEtSNDr8
+
+![Angled Div Shape](./assets/img/shape1.png)
+
+chorme 不支持？
+![Angled Div Shape](./assets/img/shape2.png)
