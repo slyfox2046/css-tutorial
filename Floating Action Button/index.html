@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../assets/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="action" onclick='actionToggle()'>
+
+    <span>+</span>
+    <ul>
+      <!-- <li><img src="1.png">Share on facebook</li>
+      <li><img src="1.png">Share on Twitter</li>
+      <li><img src="1.png">Share on Instagram</li>
+      <li><img src="1.png">Share on Pinterest</li>
+      <li><img src="1.png">Share on LinkedIn</li> -->
+      <li><i class="fab fa-facebook"></i> Share on facebook</li>
+      <li><i class="fab fa-twitter"></i>Share on Twitter</li>
+      <li><i class="fab fa-instagram"></i>Share on Instagram</li>
+      <li><i class="fab fa-pinterest"></i>Share on Pinterest</li>
+      <li><i class="fab fa-linkedin"></i>Share on LinkedIn</li>
+    </ul>
+  </div>
+
+  <script>
+    function actionToggle() {
+      var action = document.querySelector('.action');
+      action.classList.toggle('active');
+    }
+
+  </script>
+</body>
+
+</html>
