@@ -166,3 +166,12 @@ chorme 不支持？
 [youtube]: https://www.youtube.com/watch?v=dsMj8_dUJTQ&t=91s
 
 ![shape_outside_circle](./assets/img/floatingactionbutton.png)
+
+
+## Creating an Animated 404 Page using HTML & CSS | Responsive Web Design
+
+[描述]：
+
+[youtube]: https://www.youtube.com/watch?v=CGVI_mnnO50&list=WL&index=6&t=0s
+
+![shape_outside_circle](./assets/img/floatingactionbutton.png)
