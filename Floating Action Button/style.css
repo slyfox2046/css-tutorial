@@ -58,13 +58,6 @@ body {
 .action ul li:not(:last-child){
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-/* .action ul li img {
-  margin-right:10px; 
-  opacity: 0.2;
-}
-.action ul li:hover img{
-  opacity: 0.8;
-} */
 
 .action ul li i {
   margin-right:10px; 
