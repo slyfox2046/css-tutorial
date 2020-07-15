@@ -170,8 +170,8 @@ chorme 不支持？
 
 ## Creating an Animated 404 Page using HTML & CSS | Responsive Web Design
 
-[描述]：
+[描述]：animate
 
 [youtube]: https://www.youtube.com/watch?v=CGVI_mnnO50&list=WL&index=6&t=0s
 
-![shape_outside_circle](./assets/img/floatingactionbutton.png)
+![shape_outside_circle](./assets/img/404plane.png)
