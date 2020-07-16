@@ -175,3 +175,11 @@ chorme 不支持？
 [youtube]: https://www.youtube.com/watch?v=CGVI_mnnO50&list=WL&index=6&t=0s
 
 ![shape_outside_circle](./assets/img/404plane.png)
+
+## Glowing Text Animation Effects 2 | Html CSS Animation
+
+[描述]：animate
+
+[youtube]: https://www.youtube.com/watch?v=1B3FgFXn274
+
+![shape_outside_circle](./assets/img/glowingTextAnimateEffect2.png)
