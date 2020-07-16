@@ -186,7 +186,7 @@ chorme 不支持？
 
 ## CSS Glowing Text Hover Effects | Quick HTML CSS Tutorial For Beginner
 
-[描述]：animate
+[描述]：animate 1
 
 [youtube]: https://www.youtube.com/watch?v=I_RhD99rR0c
 
