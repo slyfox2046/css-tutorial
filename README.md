@@ -183,3 +183,11 @@ chorme 不支持？
 [youtube]: https://www.youtube.com/watch?v=1B3FgFXn274
 
 ![shape_outside_circle](./assets/img/glowingTextAnimateEffect2.png)
+
+## CSS Glowing Text Hover Effects | Quick HTML CSS Tutorial For Beginner
+
+[描述]：animate
+
+[youtube]: https://www.youtube.com/watch?v=I_RhD99rR0c
+
+![shape_outside_circle](./assets/img/GlowingTextHoverEffects.png)
