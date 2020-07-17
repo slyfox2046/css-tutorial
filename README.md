@@ -205,3 +205,19 @@ chorme 不支持？
 【youtube】 https://www.youtube.com/watch?v=fw3fOHnzCjI&list=WL&index=3&t=0s
 
 ![shape_outside_circle](./assets/img/simpleImg.png)
+
+## Transparent Login Form with HTML & CSS - Login form Design
+
+[描述]：Login Form 
+
+【youtube】 https://www.youtube.com/watch?v=ylFLVBbB9AM&t=309s
+
+![shape_outside_circle](./assets/img/transparentLoginForm2.png)
+
+## Transparent Login Form with floating Placeholder Text - Pure CSS Label Slide Up on Focus - No jQuery
+
+[描述]：Login Form 
+
+【youtube】 https://www.youtube.com/watch?v=UJvL4i6UPbY
+
+![shape_outside_circle](./assets/img/transparentLoginForm.png)
