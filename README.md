@@ -34,14 +34,14 @@
 
 [描述]：span:beafore span:after ，opacity 0透明度变化，transition 
 
-[youtube]:https://www.youtube.com/watch?v=lJX-MlO_1GE
+【youtube】https://www.youtube.com/watch?v=lJX-MlO_1GE
 
 ![1586141390742](./assets/img/1586141390742.png)
 
 ## Working Digital Clock using HTML CSS & Javascript | Neumorphism UI Design
 [描述]：简单时钟显示
 
-[youtube]:https://www.youtube.com/watch?v=CP2V4tN8kYI&t=3s
+【youtube】https://www.youtube.com/watch?v=CP2V4tN8kYI&t=3s
 
 ![1586152453896](./assets/img/1586152453896.png)
 
@@ -51,7 +51,7 @@
 
 [描述]：position : sticky 的使用
 
-[youtube]:https://www.youtube.com/watch?v=7ThSiVinrmU
+【youtube】https://www.youtube.com/watch?v=7ThSiVinrmU
 
 ![1586175128111](./assets/img/1586175128111.png)
 
@@ -61,7 +61,7 @@
 
 [描述]: css text-shadow 
 
-[youtube]:https://www.youtube.com/watch?v=EkNfXFYPBR4&t=132s
+【youtube】https://www.youtube.com/watch?v=EkNfXFYPBR4&t=132s
 
 ![1586255454203](./assets/img/1586255454203.png)
 
@@ -71,7 +71,7 @@
 
 [描述]: scroll样式 filter blur 等
 
-[youtube]:https://www.youtube.com/watch?v=qYFkQa0Bbq0
+【youtube】https://www.youtube.com/watch?v=qYFkQa0Bbq0
 
 ![1586328375955](assets/img/1586328375955.png)
 
@@ -81,7 +81,7 @@
 
 [描述]: 字体位置变化，transform: translateX(-200px) translateY(-200px);
 
-[youtube]:https://www.youtube.com/watch?v=Xv2dE5oWMNY&t=60s
+【youtube】https://www.youtube.com/watch?v=Xv2dE5oWMNY&t=60s
 
 ![1586397893299](./assets/img/1586397893299.png)
 
@@ -93,7 +93,7 @@
 
 [描述]：
 
-[youtube]:https://www.youtube.com/watch?v=Ihwqun_HmXs
+【youtube】https://www.youtube.com/watch?v=Ihwqun_HmXs
 
 ![1586509490517](./assets/img/1586509490517.png)
 
@@ -103,18 +103,16 @@
 
 [描述]：响应式网站，aos动画，返回top，右上角menu动画,字体引入
 
-[youtube]:https://www.youtube.com/watch?v=T7PnWnTgusc
+【youtube】https://www.youtube.com/watch?v=T7PnWnTgusc
 [github]:https://github.com/adaorachi/rosie_ellis
 
 ![1586597332666](./assets/img/1586597332666.png)
-
-
 
 ## CSS3 Cloud Banner Animation Effects | Pure CSS Animated Clouds
 
 [描述]：云飞翔效果，animate，translateY ，css calc
 
-[youtube]:https://www.youtube.com/watch?v=FWW38GuIo7M&t=18s
+【youtube】https://www.youtube.com/watch?v=FWW38GuIo7M&t=18s
 
 ![img](./assets/img/cloudEffects.png)
 
@@ -124,7 +122,7 @@
 
 [描述]：文字环绕图片，shape-outside: circle();
 
-[youtube]: 
+【youtube】 
 
 ![shape_outside_circle](./assets/img/shape_outside_circle.png)
 
@@ -134,7 +132,7 @@
 
 [描述]：Div 梯形 ，box-sizing chrome不支持;
 
-[youtube]: https://www.youtube.com/watch?v=A11xEtSNDr8
+【youtube】 https://www.youtube.com/watch?v=A11xEtSNDr8
 
 ![Angled Div Shape](./assets/img/shape1.png)
 
@@ -146,7 +144,7 @@ chorme 不支持？
 
 [描述]：通过position:fixed 实现返回顶部功能
 
-[youtube]: https://www.youtube.com/watch?v=HP3ZSd3ko5Y
+【youtube】 https://www.youtube.com/watch?v=HP3ZSd3ko5Y
 
 ![shape_outside_circle](./assets/img/scrolltotop.png)
 
@@ -155,7 +153,7 @@ chorme 不支持？
 
 [描述]：动画
 
-[youtube]: https://www.youtube.com/watch?v=_fafoYgeX7Y&t=44s
+【youtube】 https://www.youtube.com/watch?v=_fafoYgeX7Y&t=44s
 
 ![shape_outside_circle](./assets/img/coolhover.png)
 
@@ -163,7 +161,7 @@ chorme 不支持？
 
 [描述]：position:fixed
 
-[youtube]: https://www.youtube.com/watch?v=dsMj8_dUJTQ&t=91s
+【youtube】 https://www.youtube.com/watch?v=dsMj8_dUJTQ&t=91s
 
 ![shape_outside_circle](./assets/img/floatingactionbutton.png)
 
@@ -172,7 +170,7 @@ chorme 不支持？
 
 [描述]：animate
 
-[youtube]: https://www.youtube.com/watch?v=CGVI_mnnO50&list=WL&index=6&t=0s
+【youtube】 https://www.youtube.com/watch?v=CGVI_mnnO50&list=WL&index=6&t=0s
 
 ![shape_outside_circle](./assets/img/404plane.png)
 
@@ -180,7 +178,7 @@ chorme 不支持？
 
 [描述]：animate
 
-[youtube]: https://www.youtube.com/watch?v=1B3FgFXn274
+【youtube】 https://www.youtube.com/watch?v=1B3FgFXn274
 
 ![shape_outside_circle](./assets/img/glowingTextAnimateEffect2.png)
 
@@ -188,7 +186,7 @@ chorme 不支持？
 
 [描述]：animate 
 
-[youtube]: https://www.youtube.com/watch?v=I_RhD99rR0c
+【youtube】 https://www.youtube.com/watch?v=I_RhD99rR0c
 
 ![shape_outside_circle](./assets/img/GlowingTextHoverEffects.png)
 
@@ -196,6 +194,14 @@ chorme 不支持？
 
 [描述]：transition transform 
 
-[youtube]: https://www.youtube.com/watch?v=KcdBOoK3Pfw&list=WL&index=2&t=0s
+【youtube】 https://www.youtube.com/watch?v=KcdBOoK3Pfw&list=WL&index=2&t=0s
 
 ![shape_outside_circle](./assets/img/carousel.png)
+
+## Simple Images Slider Show - Css Animation Tutorial only using html and css
+
+[描述]：animate 
+
+【youtube】 https://www.youtube.com/watch?v=fw3fOHnzCjI&list=WL&index=3&t=0s
+
+![shape_outside_circle](./assets/img/simpleImg.png)
