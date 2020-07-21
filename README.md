@@ -221,3 +221,11 @@ chorme 不支持？
 【youtube】 https://www.youtube.com/watch?v=UJvL4i6UPbY
 
 ![shape_outside_circle](./assets/img/transparentLoginForm.png)
+
+## Create The Our team Section By Using HTML & CSS
+
+[描述]：:target 伪类 https://developer.mozilla.org/zh-CN/docs/Web/CSS/:target 
+
+【youtube】 https://www.youtube.com/watch?v=DNiGz7Zxk2Y&t=42s
+
+![shape_outside_circle](./assets/img/teamSection.png)
