@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h2>scroll</h2>
+  <br>
+  <br>
+
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla tempora deleniti aliquid consequuntur dicta
+    quibusdam fugiat quod aperiam assumenda praesentium accusantium debitis commodi, enim distinctio voluptatibus culpa
+    harum modi voluptate maiores asperiores? Excepturi, ullam! Atque dolorem fugiat ipsa numquam impedit, consectetur
+    laborum neque vel deleniti ex. In, tempore facilis rem voluptatibus et rerum excepturi ab inventore quia doloribus
+    vero reiciendis maxime ipsam dolore sequi natus animi voluptate provident quasi itaque necessitatibus. Quam omnis
+    totam nisi architecto? Nulla doloremque voluptatum corrupti aperiam qui neque quaerat similique sint impedit. Eaque
+    culpa nesciunt a maxime quasi deserunt dignissimos commodi magni veniam! Omnis voluptate facilis at earum
+    praesentium reiciendis, temporibus ab molestiae a, eius, sit nesciunt unde autem eveniet dolorum necessitatibus
+    accusantium sint modi.</p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorum illum tenetur dignissimos. Illum corporis,
+    praesentium assumenda harum quasi perspiciatis reprehenderit impedit architecto numquam aliquam dicta dolore nemo
+    quia libero sit, est repellat laudantium voluptatem sed. Magni inventore deleniti odit sint ipsa at, ipsum aliquid
+    ab. Vero aperiam sunt dolores harum ea pariatur eius ex, nobis, maiores officiis dolorum eum cumque numquam
+    quibusdam. Voluptas laborum sed eaque itaque! Ratione voluptate quod aliquam corrupti ipsa? Illum delectus inventore
+    magnam, ex earum quasi ut eos cum modi quia facilis error accusantium excepturi!    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorum illum tenetur dignissimos. Illum corporis,
+    praesentium assumenda harum quasi perspiciatis reprehenderit impedit architecto numquam aliquam dicta dolore nemo
+    quia libero sit, est repellat laudantium voluptatem sed. Magni inventore deleniti odit sint ipsa at, ipsum aliquid
+    ab. Vero aperiam sunt dolores harum ea pariatur eius ex, nobis, maiores officiis dolorum eum cumque numquam
+    quibusdam. Voluptas laborum sed eaque itaque! Ratione voluptate quod aliquam corrupti ipsa? Illum delectus inventore
+    magnam, ex earum quasi ut eos cum modi quia facilis error accusantium excepturi!
+  </p>
+
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla tempora deleniti aliquid consequuntur dicta
+    quibusdam fugiat quod aperiam assumenda praesentium accusantium debitis commodi, enim distinctio voluptatibus culpa
+    harum modi voluptate maiores asperiores? Excepturi, ullam! Atque dolorem fugiat ipsa numquam impedit, consectetur
+    laborum neque vel deleniti ex. In, tempore facilis rem voluptatibus et rerum excepturi ab inventore quia doloribus
+    vero reiciendis maxime ipsam dolore sequi natus animi voluptate provident quasi itaque necessitatibus. Quam omnis
+    totam nisi architecto? Nulla doloremque voluptatum corrupti aperiam qui neque quaerat similique sint impedit. Eaque
+    culpa nesciunt a maxime quasi deserunt dignissimos commodi magni veniam! Omnis voluptate facilis at earum
+    praesentium reiciendis, temporibus ab molestiae a, eius, sit nesciunt unde autem eveniet dolorum necessitatibus
+    accusantium sint modi.</p>
+
+
+  <script>
+    var nystroies = document.querySelector('p').offsetTop;
+    window.onscroll = function () {
+      if (window.pageYOffset > 0) {
+        var opac = (window.pageYOffset / nystroies)
+        console.log(opac);
+        document.body.style.background = "linear-gradient(rgba(255,255,255," + opac + "),rgba(255,255,255," + opac + ")),url(../assets/images/carousel4.jpg) no-repeat"
+      }
+    }
+  </script>
+</body>
+
+</html>

@@ -229,3 +229,17 @@ chorme 不支持？
 【youtube】 https://www.youtube.com/watch?v=DNiGz7Zxk2Y&t=42s
 
 ![shape_outside_circle](./assets/img/teamSection.png)
+
+## Scrolling Effect For Website Header Using HTML CSS - Learn Website UI Design
+
+[描述]：
+background: linear-gradient(rgba(255, 255, 255, 0.565), rgba(255, 255, 255, 0.565)), url(../assets/images/carousel4.jpg) no-repeat; 
+
+window.onscroll = function () {}
+
+**注意：** 浏览器devtool是中 network 下关闭Disable catch
+
+【youtube】 https://www.youtube.com/watch?v=7iqRppSPexU&t=36s
+
+![shape_outside_circle](./assets/img/scrollEffect.png)
+

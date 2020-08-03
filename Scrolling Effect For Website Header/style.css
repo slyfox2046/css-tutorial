@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background: url(../assets/images/carousel4.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed !important;
+  background-size: cover;
+  background-position: center !important;
+  padding: 1rem;
+  padding-top: 55%;
+  height: 100vh;
+  color: white;
+}
+
+h2{
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+p{
+  font-size: 1.3rem;
+  text-align: left;
+  line-height: 1.6;margin-left: 8rem;
+  color: #000;
+}
