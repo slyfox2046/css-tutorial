@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="../assets//css/all.min.css"> -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section></section>
+</body>
+<style>
+  section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh; 
+    background: url(../assets/images/carousel4.jpg);
+    background-size: cover;
+  }
+
+  section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../assets/images/splash.jpg) no-repeat;
+    background-size: 100%;
+    /* background-position: center; */
+    mix-blend-mode: screen;
+  }
+</style>
+
+</html>

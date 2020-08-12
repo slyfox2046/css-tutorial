@@ -6,21 +6,21 @@
 
 ![img](./assets/img/coolMenuHoverEffect.png)
 
-
 ## customWarningAlertNotification
+
 [youtube] https://www.youtube.com/watch?v=hm79I2JpwJw
 
 ![1585879903126](./assets/img/1585879903126.png)
 
-
 ## gridLayoutCrashCourse
+
 ### [描述]:gird 布局
+
 [youtube] https://www.youtube.com/watch?v=jV8B24rSN5o
 
-[参考资料]:https://www.ruanyifeng.com/blog/2019/03/grid-layout-tutorial.html
+[参考资料]: https://www.ruanyifeng.com/blog/2019/03/grid-layout-tutorial.html
+
 ![1586010486016](./assets/img/1586010486016.png)
-
-
 
 ## Working Analog Clock using HTML CSS & Javascript | Neumorphsim UI Design
 
@@ -32,20 +32,19 @@
 
 ## Cool CSS Menu Hover Effects - Html5 Css3 Hover Effect Tutorial
 
-[描述]：span:beafore span:after ，opacity 0透明度变化，transition 
+[描述]：span:beafore span:after ，opacity 0 透明度变化，transition
 
 【youtube】https://www.youtube.com/watch?v=lJX-MlO_1GE
 
 ![1586141390742](./assets/img/1586141390742.png)
 
 ## Working Digital Clock using HTML CSS & Javascript | Neumorphism UI Design
+
 [描述]：简单时钟显示
 
 【youtube】https://www.youtube.com/watch?v=CP2V4tN8kYI&t=3s
 
 ![1586152453896](./assets/img/1586152453896.png)
-
-
 
 ## CSS Position Sticky Scrolling Effects | No Javascript
 
@@ -55,27 +54,21 @@
 
 ![1586175128111](./assets/img/1586175128111.png)
 
+## CSS Glowing Loading Page Animation Effects
 
-
-## CSS Glowing Loading Page Animation Effects 
-
-[描述]: css text-shadow 
+[描述]: css text-shadow
 
 【youtube】https://www.youtube.com/watch?v=EkNfXFYPBR4&t=132s
 
 ![1586255454203](./assets/img/1586255454203.png)
 
+## Creative Page Scroll Progress Bar
 
-
-## Creative Page Scroll Progress Bar 
-
-[描述]: scroll样式 filter blur 等
+[描述]: scroll 样式 filter blur 等
 
 【youtube】https://www.youtube.com/watch?v=qYFkQa0Bbq0
 
 ![1586328375955](assets/img/1586328375955.png)
-
-
 
 ## Simple Text Animation
 
@@ -85,10 +78,6 @@
 
 ![1586397893299](./assets/img/1586397893299.png)
 
-
-
-
-
 ## How to create the Responsive Side Navigation Bar Using HTML CSS and Jquery | Vertical Navbar
 
 [描述]：
@@ -97,11 +86,9 @@
 
 ![1586509490517](./assets/img/1586509490517.png)
 
+## Responsive Personal Portfolio Website
 
-
-## Responsive Personal Portfolio Website 
-
-[描述]：响应式网站，aos动画，返回top，右上角menu动画,字体引入
+[描述]：响应式网站，aos 动画，返回 top，右上角 menu 动画,字体引入
 
 【youtube】https://www.youtube.com/watch?v=T7PnWnTgusc
 [github]:https://github.com/adaorachi/rosie_ellis
@@ -116,21 +103,17 @@
 
 ![img](./assets/img/cloudEffects.png)
 
-
-
 ## Shape Outside Circle
 
 [描述]：文字环绕图片，shape-outside: circle();
 
-【youtube】 
+【youtube】
 
 ![shape_outside_circle](./assets/img/shape_outside_circle.png)
 
-
-
 ## Angled Div Shape
 
-[描述]：Div 梯形 ，box-sizing chrome不支持;
+[描述]：Div 梯形 ，box-sizing chrome 不支持;
 
 【youtube】 https://www.youtube.com/watch?v=A11xEtSNDr8
 
@@ -139,15 +122,13 @@
 chorme 不支持？
 ![Angled Div Shape](./assets/img/shape2.png)
 
-
 ## Scroll to top button
 
-[描述]：通过position:fixed 实现返回顶部功能
+[描述]：通过 position:fixed 实现返回顶部功能
 
 【youtube】 https://www.youtube.com/watch?v=HP3ZSd3ko5Y
 
 ![shape_outside_circle](./assets/img/scrolltotop.png)
-
 
 ## Cool Hover Animation on Social Media Icons | HTML & CSS
 
@@ -164,7 +145,6 @@ chorme 不支持？
 【youtube】 https://www.youtube.com/watch?v=dsMj8_dUJTQ&t=91s
 
 ![shape_outside_circle](./assets/img/floatingactionbutton.png)
-
 
 ## Creating an Animated 404 Page using HTML & CSS | Responsive Web Design
 
@@ -184,7 +164,7 @@ chorme 不支持？
 
 ## CSS Glowing Text Hover Effects | Quick HTML CSS Tutorial For Beginner
 
-[描述]：animate 
+[描述]：animate
 
 【youtube】 https://www.youtube.com/watch?v=I_RhD99rR0c
 
@@ -192,7 +172,7 @@ chorme 不支持？
 
 ## How To Create An Image Slider In HTML, CSS & Javascript
 
-[描述]：transition transform 
+[描述]：transition transform
 
 【youtube】 https://www.youtube.com/watch?v=KcdBOoK3Pfw&list=WL&index=2&t=0s
 
@@ -200,7 +180,7 @@ chorme 不支持？
 
 ## Simple Images Slider Show - Css Animation Tutorial only using html and css
 
-[描述]：animate 
+[描述]：animate
 
 【youtube】 https://www.youtube.com/watch?v=fw3fOHnzCjI&list=WL&index=3&t=0s
 
@@ -208,7 +188,7 @@ chorme 不支持？
 
 ## Transparent Login Form with HTML & CSS - Login form Design
 
-[描述]：Login Form 
+[描述]：Login Form
 
 【youtube】 https://www.youtube.com/watch?v=ylFLVBbB9AM&t=309s
 
@@ -216,7 +196,7 @@ chorme 不支持？
 
 ## Transparent Login Form with floating Placeholder Text - Pure CSS Label Slide Up on Focus - No jQuery
 
-[描述]：Login Form 
+[描述]：Login Form
 
 【youtube】 https://www.youtube.com/watch?v=UJvL4i6UPbY
 
@@ -224,7 +204,7 @@ chorme 不支持？
 
 ## Create The Our team Section By Using HTML & CSS
 
-[描述]：:target 伪类 https://developer.mozilla.org/zh-CN/docs/Web/CSS/:target 
+[描述]：:target 伪类 https://developer.mozilla.org/zh-CN/docs/Web/CSS/:target
 
 【youtube】 https://www.youtube.com/watch?v=DNiGz7Zxk2Y&t=42s
 
@@ -233,25 +213,38 @@ chorme 不支持？
 ## Scrolling Effect For Website Header Using HTML CSS - Learn Website UI Design
 
 [描述]：
-background: linear-gradient(rgba(255, 255, 255, 0.565), rgba(255, 255, 255, 0.565)), url(../assets/images/carousel4.jpg) no-repeat; 
+background: linear-gradient(rgba(255, 255, 255, 0.565), rgba(255, 255, 255, 0.565)), url(../assets/images/carousel4.jpg) no-repeat;
 
 window.onscroll = function () {}
 
-**注意：** 浏览器devtool是中 network 下关闭Disable catch
+**注意：** 浏览器 devtool 是中 network 下关闭 Disable catch
 
 【youtube】 https://www.youtube.com/watch?v=7iqRppSPexU&t=36s
 
 ![shape_outside_circle](./assets/img/scrollEffect.png)
 
-
-
-
 ## Animated share button with icon Html and Css (Animated)
+
 ## 动画分享按钮
-[描述]：动画按钮分享 
+
+[描述]：动画按钮分享
 
 【youtube】 https://www.youtube.com/watch?v=bm11uUrCrw8
 
-
 ![img](./assets/img/animatedShareButton.png)
 
+## Social media buttons with amazing animation on hover using html & css
+
+[描述]：animated
+
+【youtube】 https://www.youtube.com/watch?v=fDm0WJ_66d0&t=29s
+
+![img](./assets/img/socialMediaButtons.png)
+
+## Splash Image Mask using Html CSS | Quick CSS Tips & Tricks
+
+[描述]： mix-blend-mode: screen;
+
+【youtube】 https://www.youtube.com/watch?v=lBK_kh4iCAQ&list=WL&index=2&t=0s
+
+![img](./assets/img/splash.png)
