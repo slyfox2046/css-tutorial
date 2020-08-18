@@ -248,3 +248,12 @@ window.onscroll = function () {}
 【youtube】 https://www.youtube.com/watch?v=lBK_kh4iCAQ&list=WL&index=2&t=0s
 
 ![img](./assets/img/splash.png)
+
+## How to make Sidebar Popup Effect using HTML CSS JS
+
+[描述]： width: calc(100% - 60px); margin-left: 60px;
+
+【youtube】 https://www.youtube.com/watch?v=kMFvIH2xgqI&list=WL
+
+![img](./assets/img/sidebarpop.png)
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="banner">
+    <div class="banner-header">
+      <button class="btn-banner"><span></span></button>
+    </div>
+    <div class="banner-body">
+      <a href="" style="display:block;">
+        <img src="../assets/images/sky.jpg" alt="" width="100%">
+      </a>
+    </div>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+  <script>
+    $('.banner').addClass('showpop');
+    $('banner-header span').addClass('btn-o-banner');
+    setTimeout(() => {
+      $('.banner').removeClass('showpop');
+      $('.banner-header span').removeClass('btn-banner');
+
+    }, 15000);
+    $('.btn-banner').on('click', function () {
+      $('.banner').toggleClass('showpop');
+      $('.banner-header span').toggleClass('btn-o-banner')
+    })
+  </script>
+</body>
+
+</html>
