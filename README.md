@@ -257,3 +257,11 @@ window.onscroll = function () {}
 
 ![img](./assets/img/sidebarpop.png)
 
+
+## CSS3 Glowing Apple Logo Animation Effects | Qucik CSS Animation Tutorial For Beginners
+
+[描述]： animate
+
+【youtube】 https://www.youtube.com/watch?v=ZyNzmOEJ48A&list=WL&index=4&t=0s
+
+![img](./assets/img/apple.png)
