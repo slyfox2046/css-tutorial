@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css' />
+
+  <style>
+    body {
+      font-family: sans-serif;
+      background-image: url(../assets/images/carousel1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      /* background-size: 1980px 800px; */
+    }
+
+    html,
+    body,
+    .banner,
+    .container {
+      height: 100%;
+      text-align: center;
+    }
+
+    html {
+      overflow-x: hidden;
+    }
+
+    .block {
+      height: 300px;
+      background-color: #b1bfd8;
+      background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      position: relative;
+      font-size: 56px;
+      top: 8rem;
+      color: white;
+    }
+
+    h2 {
+      position: relative;
+      top: -42rem;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Scroll Down to see the action</h1>
+  </div>
+  <div class="container">
+    <h2>Animate all the website sections while scrolling the webpage</h2>
+
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="block"></div>
+      </div>
+      <div class="col-md-6">
+        <div class="block"></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3">
+        <div class="block" data-move-y="200px" data-move-x="-200px"></div>
+      </div>
+      <div class="col-md-3">
+        <div class="block" data-move-y="200px" data-move-x="-100px"> </div>
+      </div>
+      <div class="col-md-3">
+        <div class="block" data-move-y="200px" data-move-x="100px"> </div>
+      </div>
+      <div class="col-md-3">
+        <div class="block" data-move-y="200px" data-move-x="200px"> </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="block" data-move-x="-500px" data-rotate="90deg"></div>
+      </div>
+      <div class="col-md-4">
+        <div class="block" data-move-y="200px" data-move-x="-200px" data-rotate="45deg"></div>
+      </div>
+      <div class="col-md-4">
+        <div class="block" data-move-x="500px" data-rotate="-90deg"></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3">
+        <div class="block" data-rotate-x='90deg' data-move-z="-500px" data-move-y="200px"> </div>
+      </div>
+      <div class="col-md-3">
+        <div class="block" data-rotate-x='90deg' data-move-z="-500px" data-move-y="200px">
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="block" data-rotate-x='90deg' data-move-z="-500px" data-move-y="200px"> </div>
+      </div>
+      <div class="col-md-3">
+        <div class="block" data-rotate-x='90deg' data-move-z="-500px" data-move-y="200px"> </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="block" data-rotate-y="27deg" data-move-x="-150%"></div>
+      </div>
+      <div class="col-md-6">
+        <div class="block" data-rotate-y="27deg" data-move-x="150%"></div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.11/jquery.smoove.js'></script>
+  <script>
+    $('.block').smoove({ offset: '40%' });
+  </script>
+
+  <script>
+
+  </script>
+</body>
+
+</html>

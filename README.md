@@ -265,3 +265,15 @@ window.onscroll = function () {}
 【youtube】 https://www.youtube.com/watch?v=ZyNzmOEJ48A&list=WL&index=4&t=0s
 
 ![img](./assets/img/apple.png)
+
+
+https://www.youtube.com/watch?v=a-4astkESO0&list=WL&index=3&t=98s
+
+
+## Animate On Scroll using HTML CSS JS - Animate website section while scrolling
+
+[描述]： jquery smoove
+
+【youtube】 https://www.youtube.com/watch?v=ZyNzmOEJ48A&list=WL&index=4&t=0s
+
+![img](./assets/img/smoove.png)
