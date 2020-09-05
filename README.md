@@ -277,3 +277,11 @@ https://www.youtube.com/watch?v=a-4astkESO0&list=WL&index=3&t=98s
 【youtube】 https://www.youtube.com/watch?v=ZyNzmOEJ48A&list=WL&index=4&t=0s
 
 ![img](./assets/img/smoove.png)
+
+## How To Make Video Gallery In HTML And CSS Website Step By Step Tutorial
+
+[描述]： img 的 border-radius 外面必须包裹一层div,div和img都设置border-radius才有效
+
+【youtube】 https://www.youtube.com/watch?v=wnseY8goQoc&t=718s
+
+![img](./assets/img/galley.png)

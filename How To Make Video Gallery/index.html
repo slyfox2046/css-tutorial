@@ -1,0 +1,81 @@
+<!--
+ * @Author: Admin
+ * @Date: 2020-09-04 10:38:08
+ * @FilePath: \css\How To Make Video Gallery\index.html
+ * @Description: file content
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>HOW TO MAKE A VIDEO GALLERY</h1>
+    <div class="row">
+      <div class="col">
+        <div class="feature-img">
+          <img src="../assets/images/picvideo.png" alt="" width="100%">
+          <img src="../assets/images/play.png" class="play-btn" onclick="playVideo('../assets/video/s1.mov')">
+        </div>
+      </div>
+      <div class="col">
+        <div class="small-img-row">
+          <div class="small-img">
+            <img src="../assets/images/carousel1.jpg" alt="">
+            <img src="../assets/images/play.png" class="play-btn" onclick="playVideo('../assets/video/s2.mov')">
+          </div>
+          <p>How to add multiple videos in a website or to maker a video gallery </p>
+        </div>
+        <div class="small-img-row">
+          <div class="small-img">
+            <img src="../assets/images/carousel2.jpg" alt=""> <img src="../assets/images/play.png" class="play-btn"
+              onclick="playVideo('../assets/video/s3.mov')">
+          </div>
+          <p>How to add multiple videos in a website or to maker a video gallery </p>
+        </div>
+        <div class="small-img-row">
+          <div class="small-img">
+            <img src="../assets/images/carousel3.jpg" alt=""> <img src="../assets/images/play.png" class="play-btn"
+              onclick="playVideo('../assets/video/s4.mov')">
+          </div>
+          <p>How to add multiple videos in a website or to maker a video gallery </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="video-player" id="videoPlayer">
+    <video width="100%" controls id="myVideo">
+      <source src="../assets/video/s1.mov">
+
+    </video>
+    <img src="../assets/images/close.png" class="close-btn" onclick="stopVideo()">
+  </div>
+
+  <script>
+    var videoPlayer = document.getElementById('videoPlayer')
+    var myVideo = document.getElementById('myVideo')
+
+    function stopVideo() {
+      videoPlayer.style.display = "none";
+
+      myVideo.pause()
+    }
+
+    function playVideo(file) {
+
+      videoPlayer.style.display = "block";
+      myVideo.src = file;
+      myVideo.play();
+
+    }
+  </script>
+</body>
+
+</html>
