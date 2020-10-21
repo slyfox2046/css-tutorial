@@ -290,7 +290,22 @@ https://www.youtube.com/watch?v=a-4astkESO0&list=WL&index=3&t=98s
 ## Single Element CSS iPhone Box Mockup | iPhone 12 Box Mockup using Html CSS Only
 
 [描述]: 
+.iPhone::after {
+  content: '';
+  position: absolute;
+  bottom: -82px;
+  left: 0px;
+  width: 100%;
+  height: 82px;
+  background: url(../assets/images/samsung.png) #f2f2f2;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 96px;
+  transform-origin: top;
+  transform: skewX(-47deg);
+}
+
 
 【youtube】 https://www.youtube.com/watch?v=4o_AzewcyQY
 
-![img](./assets/img/galley.png)
+![img](./assets/img/iphonebox.png)

@@ -26,8 +26,8 @@ body {
   top: 0;
   left: -90px;
   width: 90px;
-  height:100%;
-  background:url(../assets/images/samsung_text.png) #f2f2f2;
+  height: 100%;
+  background: url(../assets/images/samsung_t.png) #f2f2f2;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 96px;
@@ -38,14 +38,13 @@ body {
   content: '';
   position: absolute;
   bottom: -82px;
-  left:0px;
+  left: 0px;
   width: 100%;
-  height:82px;
-  background:url(../assets/images/samsung.png) #f2f2f2;
+  height: 82px;
+  background: url(../assets/images/samsung.png) #f2f2f2;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 96px;
-  
   transform-origin: top;
   transform: skewX(-47deg);
 }
