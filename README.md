@@ -310,3 +310,10 @@ https://www.youtube.com/watch?v=a-4astkESO0&list=WL&index=3&t=98s
 
 ![img](./assets/img/iphonebox.png)
 
+## How to create animated Pie-chart or Skills bar in HTML CSS JQuery Web Design
+
+[描述]： easy-pie-chart  有angularjs 版本，但不支持带小数点的数据
+
+【youtube】 https://www.youtube.com/watch?v=oi92MBMqdt0
+
+![img](./assets/img/piechart.png)
