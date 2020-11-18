@@ -311,6 +311,7 @@ https://www.youtube.com/watch?v=a-4astkESO0&list=WL&index=3&t=98s
 ![img](./assets/img/iphonebox.png)
 
 
+
 ## Contact Info Box Hover Effects using Html & CSS Only
 
 【youtube】 https://www.youtube.com/watch?v=fs-kz0aCraE&list=WL&index=1&t=75s
@@ -331,3 +332,13 @@ https://www.youtube.com/watch?v=a-4astkESO0&list=WL&index=3&t=98s
     box里面设置css：overflow: hidden;
 
 ![img](./assets/img/effect2.jpg)
+
+
+## How to create animated Pie-chart or Skills bar in HTML CSS JQuery Web Design
+
+[描述]： easy-pie-chart  有angularjs 版本，但不支持带小数点的数据
+
+【youtube】 https://www.youtube.com/watch?v=oi92MBMqdt0
+
+![img](./assets/img/piechart.png)
+
