@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css' />
+  <style>
+    body {
+      background: url(../assets/images/carousel1.jpg);
+    }
+
+    .b-skills {
+      padding-top: 40px;
+      text-align: center;
+
+    }
+
+    h2 {
+      font-size: 40px;
+      color: white;
+      margin-bottom: 20px;
+      font-weight: 400;
+      font-family: sans-serif;
+    }
+
+    .skill-item {
+      position: relative;
+      max-width: 250px;
+      width: 100%;
+      margin-bottom: 30px;
+      color: #555;
+
+    }
+
+    .chart-container {
+      position: relative;
+      width: 100%;
+      height: 0;
+      padding-top: 100%;
+      margin-bottom: 27px;
+      border: 3px solid white;
+      border-radius: 50px;
+      background-color: white;
+      ;
+    }
+
+    .skill-item .chart,
+    .skill-item .chart canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100% !important;
+      height: 100% !important;
+    }
+
+    .skill-item .chart::before {
+      content: "";
+      width: 0;
+      height: 100%;
+    }
+
+    .skill-item .chart:before,
+    .skill-item .percent {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .skill-item .percent {
+      position: relative;
+      line-height: 1;
+      font-size: 70px;
+      color: #333;
+      font-weight: 400;
+      z-index: 2;
+    }
+
+    .skill-item .percent::after {
+      content: attr(data-after);
+      font-size: 20px;
+    }
+
+    p {
+      font-weight: 400;
+      font-family: sans-serif;
+      color: white;
+      font-size: 28px;
+      margin-top: 40px;
+
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+    <br><br><br><br>
+    <div class="b-skills">
+      <div class="container">
+        <h2>Our Animated Skills</h2>
+        <br><br><br>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="skill-item center-block">
+              <div class="chart-container">
+                <div class="chart" data-percent="92" data-bar-color="#23afe3">
+                  <span class="percent" data-after="%">92</span>
+                </div>
+                <p>Web Design</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="skill-item center-block">
+              <div class="chart-container">
+                <div class="chart" data-percent="78" data-bar-color="#a7d212">
+                  <span class="percent" data-after="%">78</span>
+                </div>
+                <p>Development</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="skill-item center-block">
+              <div class="chart-container">
+                <div class="chart" data-percent="85" data-bar-color="#12dd13">
+                  <span class="percent" data-after="%">85</span>
+                </div>
+                <p>Seo</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="skill-item center-block">
+              <div class="chart-container">
+                <div class="chart" data-percent="78" data-bar-color="#23afe3">
+                  <span class="percent" data-after="%">78</span>
+                </div>
+                <p>UI/UX Design</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js'></script>
+  <script src='jquery.easypiechart.min.js'></script>
+
+  <script>
+    var $window = $(window);
+    function run() {
+      var fName = arguments[0],
+        aArgs = Array.prototype.slice.call(arguments, 1)
+      try {
+        fName.apply(window, aArgs);
+
+      } catch (err) {
+
+      }
+
+    }
+    function _chart() {
+      $('.b-skills').appear(function () {
+        setTimeout(() => {
+          $(".chart").easyPieChart({
+            easing: 'easeOutElastic',
+            delay: 3000, barColor: "#369670",
+            scaleColor: false, lineWidth: 21, trackWidth: 21, size: 250, lineCap: "round", onStep: function (from, to, percent) {
+              this.el.children[0].innerHTML = Math.round(percent);
+
+            }
+          })
+        }, 150);
+      })
+    };
+    $(document).ready(function () {
+      console.log("start")
+      // run(_chart);
+      $(".chart").easyPieChart({
+            easing: 'easeOutElastic',
+            delay: 3000, barColor: "#369670",
+            scaleColor: false, lineWidth: 21, trackWidth: 21, size: 250, lineCap: "round", onStep: function (from, to, percent) {
+              this.el.children[0].innerHTML = Math.round(percent);
+
+            }
+          })
+    }
+    )
+  </script>
+</body>
+
+</html>
