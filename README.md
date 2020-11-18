@@ -309,3 +309,25 @@ https://www.youtube.com/watch?v=a-4astkESO0&list=WL&index=3&t=98s
 【youtube】 https://www.youtube.com/watch?v=4o_AzewcyQY
 
 ![img](./assets/img/iphonebox.png)
+
+
+## Contact Info Box Hover Effects using Html & CSS Only
+
+【youtube】 https://www.youtube.com/watch?v=fs-kz0aCraE&list=WL&index=1&t=75s
+[描述]： 
+  effect1:
+    transform: scale(0);
+    transition: 0.5s;
+    transition-delay: 0.5s; 
+
+![img](./assets/img/effect1.jpg)
+
+[描述]： 
+  effect2:
+    transition: 0.5s;
+    transition-delay: 0.5s; 
+    transform: scale(1) translateY(calc(100% - 5px))
+
+    box里面设置css：overflow: hidden;
+
+![img](./assets/img/effect2.jpg)
