@@ -342,3 +342,12 @@ https://www.youtube.com/watch?v=a-4astkESO0&list=WL&index=3&t=98s
 【youtube】 https://www.youtube.com/watch?v=oi92MBMqdt0
 
 ![img](./assets/img/piechart.png)
+
+
+## How to Create Responsive Tab Menu using HTML CSS JQuery - Learn Web Design
+
+[描述]： jquery responsive-tabs 
+
+【youtube】 https://www.youtube.com/watch?v=W_BgsepKx6U&list=WL&index=3&t=24s
+
+![img](./assets/img/tabmenu.jpg)
