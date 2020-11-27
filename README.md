@@ -351,3 +351,14 @@ https://www.youtube.com/watch?v=a-4astkESO0&list=WL&index=3&t=98s
 【youtube】 https://www.youtube.com/watch?v=W_BgsepKx6U&list=WL&index=3&t=24s
 
 ![img](./assets/img/tabmenu.jpg)
+
+
+
+## Our Services Box Hover Effects | Html CSS Responsive Design
+
+[描述]： pointer-events: none; none值能阻止点击、状态变化和鼠标指针变化
+	overflow:hidden 后， box-shadow: 0 0 0 400px #e91e63;
+
+【youtube】 https://www.youtube.com/watch?v=JJkuGvfFKOw&list=WL&index=2&t=64s
+
+![img](./assets/img/boxhover.jpg)
