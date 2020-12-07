@@ -362,3 +362,11 @@ https://www.youtube.com/watch?v=a-4astkESO0&list=WL&index=3&t=98s
 【youtube】 https://www.youtube.com/watch?v=JJkuGvfFKOw&list=WL&index=2&t=64s
 
 ![img](./assets/img/boxhover.jpg)
+
+## 3D Book Mockup Using CSS | CSS3 Isometric Design
+
+[描述]： 
+
+【youtube】 https://www.youtube.com/watch?v=Za7PiYZlc4I
+
+![img](./assets/img/g)
