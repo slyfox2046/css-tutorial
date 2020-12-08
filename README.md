@@ -365,8 +365,15 @@ https://www.youtube.com/watch?v=a-4astkESO0&list=WL&index=3&t=98s
 
 ## 3D Book Mockup Using CSS | CSS3 Isometric Design
 
-[描述]： 
-
+[描述]：   transform: skewY(-45deg) translate(-30px, -15px);
+  box-shadow: inset -10px 0 20px rgba(0, 0, 0, 0.2);
+字体透明
+.book h2 span {
+  background:url(/assets/images/bg.jpg);
+  background-attachment: fixed;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 【youtube】 https://www.youtube.com/watch?v=Za7PiYZlc4I
 
-![img](./assets/img/g)
+![img](./assets/img/book3d.jpg)
