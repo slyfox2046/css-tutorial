@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section id="portfolio">
+    <div class="project">
+      <img src="/assets/images/run/1.jpg" alt="" class="project-image">
+      <div class="grid-overlay">
+        <button class="viewbutton">View More</button>
+      </div>
+    </div>
+    <div class="project">
+      <img src="/assets/images/run/2.jpg" alt="" class="project-image">
+      <div class="grid-overlay">
+        <button class="viewbutton">View More</button>
+      </div>
+    </div>
+    <div class="project">
+      <img src="/assets/images/run/3.jpg" alt="" class="project-image">
+      <div class="grid-overlay">
+        <button class="viewbutton">View More</button>
+      </div>
+    </div>
+    <div class="project">
+      <img src="/assets/images/run/4.jpg" alt="" class="project-image">
+      <div class="grid-overlay">
+        <button class="viewbutton">View More</button>
+      </div>
+    </div>
+    <div class="project">
+      <img src="/assets/images/run/5.jpg" alt="" class="project-image">
+      <div class="grid-overlay">
+        <button class="viewbutton">View More</button>
+      </div>
+    </div>
+    <div class="project">
+      <img src="/assets/images/run/6.jpg" alt="" class="project-image">
+      <div class="grid-overlay">
+        <button class="viewbutton">View More</button>
+      </div>
+    </div>
+    <div class="project">
+      <img src="/assets/images/run/7.jpg" alt="" class="project-image">
+      <div class="grid-overlay">
+        <button class="viewbutton">View More</button>
+      </div>
+    </div>
+    <div class="project">
+      <img src="/assets/images/run/8.jpg" alt="" class="project-image">
+      <div class="grid-overlay">
+        <button class="viewbutton">View More</button>
+      </div>
+    </div>
+    <div class="overlay">
+      <div class="overlay-inner">
+        <img src="" alt="" class="inner-image">
+        <button class="close">Close x</button>
+      </div>
+    </div>
+  </section>
+  <script>
+    const buttons = document.querySelectorAll('.project');
+    const overlay = document.querySelector(".overlay");
+    const overlayImage = document.querySelector('.overlay-inner img');
+
+
+    function open(e) {
+      overlay.classList.add('open');
+      const src = e.currentTarget.querySelector('img').src;
+      overlayImage.src = src;
+
+    }
+
+    function close() {
+
+      overlay.classList.remove('open');
+
+    }
+    buttons.forEach(button => button.addEventListener('click', open))
+    overlay.addEventListener('click', close);
+  </script>
+</body>
+
+</html>
