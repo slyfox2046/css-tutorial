@@ -393,3 +393,14 @@ https://www.youtube.com/watch?v=a-4astkESO0&list=WL&index=3&t=98s
 【youtube】 https://www.youtube.com/watch?v=bVaKJW_vxU4&list=WL&index=2
 
 ![img](./assets/img/popup.jpg)
+
+## Pure CSS Creative Hover Effect in Website Design Tutorial Latest css hover effect
+
+[描述]：
+transform:perspective(150px) scaleX(0);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+background-image: linear-gradient(90deg, deepskyblue 0%, hotpink 100%);
+
+【youtube】 https://www.youtube.com/watch?v=si7tvyDv4mc&list=WL&index=2
+
+![img](./assets/img/hovereffect.png)
