@@ -404,3 +404,20 @@ background-image: linear-gradient(90deg, deepskyblue 0%, hotpink 100%);
 【youtube】 https://www.youtube.com/watch?v=si7tvyDv4mc&list=WL&index=2
 
 ![img](./assets/img/hovereffect.png)
+
+
+## CSS Text Transition Hover Effects | Html CSS
+
+[描述]：
+transform-origin: right;
+transform: scaleX(1);
+
+h1:hover span hide {
+  transition-delay: 1s;
+  color: #f00;
+  opacity: 0;
+}
+
+【youtube】 https://www.youtube.com/watch?v=QRQHivXy75k&list=WL&index=1
+
+![img](./assets/img/doit.png)
