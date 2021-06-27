@@ -421,3 +421,12 @@ h1:hover span hide {
 【youtube】 https://www.youtube.com/watch?v=QRQHivXy75k&list=WL&index=1
 
 ![img](./assets/img/doit.png)
+
+## Quickly and Easily Create Custom Scrollbars that Look Awesome
+
+[描述]：
+simplebar.js
+
+[youtube] https://www.youtube.com/watch?v=74eaw_nM5tY&list=WL&index=3
+
+![img](./assets/img/simplebar.png) 
