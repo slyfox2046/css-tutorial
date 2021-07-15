@@ -430,3 +430,16 @@ simplebar.js
 [youtube] https://www.youtube.com/watch?v=74eaw_nM5tY&list=WL&index=3
 
 ![img](./assets/img/simplebar.png) 
+
+<!-- TODO -->
+## How To Make Drop Down Menu
+
+[youtube] https://www.youtube.com/watch?v=wHFflWvii3M&list=WL&index=1
+
+## Sidebar Menu
+
+[youtube] https://www.youtube.com/watch?v=P_A2kNpyQBs&list=WL&index=4&t=748s
+
+![img](./assets/img/sidemenu-border-radius.png)
+
+
