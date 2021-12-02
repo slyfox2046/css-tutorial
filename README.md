@@ -443,3 +443,7 @@ simplebar.js
 ![img](./assets/img/sidemenu-border-radius.png)
 
 
+## CSS loading 
+[youtube] https://www.youtube.com/watch?v=1Aq9OJuS3ok&list=WL&index=2
+
+![img](./assets/img/loading-css.png)
