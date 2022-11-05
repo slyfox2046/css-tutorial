@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pure css hover effect with button</title>
+  <style>
+    html,
+    body {
+      background-color: #333;
+      height: 100%;
+      overflow: hidden;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .svg-wrapper {
+      height: 60px;
+      margin: 0 auto;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 320px;
+      cursor: pointer;
+    }
+
+    .shape {
+      fill: transparent;
+      stroke-dasharray: 140 540;
+      stroke-dashoffset: -474;
+      stroke-width: 8px;
+      stroke: #19f6e8;
+    }
+
+    .text {
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      font-size: 22px;
+      letter-spacing: 8px;
+      line-height: 32px;
+      position: relative;
+      top: -48px;
+    }
+
+    @keyframes draw {
+      0% {
+        stroke-dasharray: 140 540;
+        stroke-dashoffset: -474;
+        stroke-width: 8px;
+
+      }
+
+      100% {
+        stroke-dasharray: 760;
+        stroke-dashoffset: 0;
+        stroke-width: 2px;
+      }
+
+    }
+
+    .svg-wrapper:hover .shape {
+      animation: .5s draw linear forwards;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="svg-wrapper">
+    <svg height="60" width="320">
+      <rect class="shape" height="60" width="320"></rect>
+    </svg>
+    <div class="text">
+      Get started
+    </div>
+  </div>
+</body>
+
+</html>

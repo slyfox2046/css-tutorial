@@ -447,3 +447,9 @@ simplebar.js
 [youtube] https://www.youtube.com/watch?v=1Aq9OJuS3ok&list=WL&index=2
 
 ![img](./assets/img/loading-css.png)
+
+
+## Pure CSS Button Hover animation effect css and svg
+[youtube] https://youtu.be/1__4ldTj9hE
+![img](./assets/img/hovereffect2.png)
+
