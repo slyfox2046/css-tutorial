@@ -453,3 +453,8 @@ simplebar.js
 [youtube] https://youtu.be/1__4ldTj9hE
 ![img](./assets/img/hovereffect2.png)
 
+
+## How to make very simple and sweetest Timeline Design for website in HTML CSS - CSS Animation Effect
+[youtube] https://www.youtube.com/watch?v=zNy3dmgRhOM
+![img](./assets/img/timeline.png)
+
