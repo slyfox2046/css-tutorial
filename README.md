@@ -462,3 +462,8 @@ simplebar.js
 ## Latest Parallax Scroll using HTML CSS JS - Parallax and Scroll
 [youtube] https://www.youtube.com/watch?v=RK5Fn-L6Gds&list=WL&index=11
 ![img](./assets/img/parallax.png)
+
+
+## CSS Parallax Scrolling Website | How to Make Animated Website using HTML CSS and Javascript
+[youtube] https://www.youtube.com/watch?v=Rq7mXdESLMY
+![img](./assets/img/parallaxdubai.png)
