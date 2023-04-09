@@ -458,3 +458,7 @@ simplebar.js
 [youtube] https://www.youtube.com/watch?v=zNy3dmgRhOM
 ![img](./assets/img/timeline.png)
 
+
+## Latest Parallax Scroll using HTML CSS JS - Parallax and Scroll
+[youtube] https://www.youtube.com/watch?v=RK5Fn-L6Gds&list=WL&index=11
+![img](./assets/img/parallax.png)

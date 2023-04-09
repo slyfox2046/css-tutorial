@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html {
+      height: 1500px;
+      font-size: 0;
+      background-color: #3bb87f;
+      background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+      font-family: monospace;
+      font-weight: 300;
+      line-height: 1.5;
+      color: white;
+    }
+
+    .parallax {
+      position: fixed;
+    }
+
+    h1 {
+      width: 100%; 
+      /*font: 7em/1 'Oswald', sans-serif;*/
+      font-size:100px;
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 60px;
+    }
+
+    .skyline {
+      top: 290px;
+      margin-top: -28rem;
+      left: 8%;
+    }
+
+    .blimp {
+      top: 370px;
+      margin-top: -55rem;
+      left: 24%;
+    }
+
+    .gherkin {
+      top: 280px;
+      margin-top: -20rem;
+      left: 40%;
+      z-index: 10;
+    }
+
+    .bull {
+      top: 460px;
+      margin-top: -47rem;
+      left: 56%;
+    }
+
+    .dino {
+      top: 299px;
+      margin-top: -33rem;
+      left: 72%;
+    }
+
+    img {
+      width: 20%;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      border: 10px solid white;
+      /* border-radius: 50%;*/
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Parallax</h1>
+  <img src="../assets/images/p1.jpg" class="parallax skyline" alt="">
+  <img src="../assets/images/p2.jpg" class="parallax blimp" alt="">
+  <img src="../assets/images/p3.jpg" class="parallax gherkin" alt="">
+  <img src="../assets/images/p4.jpg" class="parallax dino" alt="">
+  <img src="../assets/images/p5.jpg" class="parallax bull" alt="">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"> </script>
+  <script>
+    var viewport = $(window),
+      root = $('html'),
+      maxScroll;
+    viewport.on({
+      scroll: function () {
+        var scrolled = viewport.scrollTop();
+        root.css({ fontSize: (scrolled / maxScroll) * 50 })
+      },
+      resize: function () {
+        maxScroll = root.height() - viewport.height();
+      }
+    }).trigger('resize');
+  </script>
+</body>
+
+</html>
