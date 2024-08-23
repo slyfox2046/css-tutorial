@@ -467,3 +467,72 @@ simplebar.js
 ## CSS Parallax Scrolling Website | How to Make Animated Website using HTML CSS and Javascript
 [youtube] https://www.youtube.com/watch?v=Rq7mXdESLMY
 ![img](./assets/img/parallaxdubai.png)
+
+
+## Custom Checkbox Using CSS
+[youtube] https://www.youtube.com/watch?v=l_20R1YTspk&list=WL&index=2
+![img](./assets/img/customcheckbox.png)
+另外的示例代码： https://codepen.io/zFunx/pen/dWbevd
+![alt text](./assets/img/customcheckbox_other.png)
+```html
+<form>
+  <input type="checkbox" id="fruit1" name="fruit-1" value="Apple">
+  <label for="fruit1">Apple</label>
+  <input type="checkbox" id="fruit2" name="fruit-2" value="Banana" disabled>
+  <label for="fruit2">Banana</label>
+  <input type="checkbox" id="fruit3" name="fruit-3" value="Cherry" checked disabled>
+  <label for="fruit3">Cherry</label>
+  <input type="checkbox" id="fruit4" name="fruit-4" value="Strawberry">
+  <label for="fruit4">Strawberry</label>
+</form>
+```
+
+```javascript
+input[type=checkbox] + label {
+  display: block;
+  margin: 0.2em;
+  cursor: pointer;
+  padding: 0.2em;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox] + label:before {
+  content: "\2714";
+  border: 0.1em solid #000;
+  border-radius: 0.2em;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  padding-left: 0.2em;
+  padding-bottom: 0.3em;
+  margin-right: 0.2em;
+  vertical-align: bottom;
+  color: transparent;
+  transition: .2s;
+}
+
+input[type=checkbox] + label:active:before {
+  transform: scale(0);
+}
+
+input[type=checkbox]:checked + label:before {
+  background-color: MediumSeaGreen;
+  border-color: MediumSeaGreen;
+  color: #fff;
+}
+
+input[type=checkbox]:disabled + label:before {
+  transform: scale(1);
+  border-color: #aaa;
+}
+
+input[type=checkbox]:checked:disabled + label:before {
+  transform: scale(1);
+  background-color: #bfb;
+  border-color: #bfb;
+}
+
+```
